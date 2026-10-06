@@ -59,7 +59,7 @@ services:
 - `STREAM_ONLY`: Filter only streaming servers by setting it to `on`. It defaults to `off`.
 - `SECURE_CORE_ONLY`: Filter only secure core servers by setting it to `on`. It defaults to `off`.
 - `TOR_ONLY`: Filter only TOR servers by setting it to `on`. It defaults to `off`.
-- `PORT_FORWARD_ONLY`: Filter only port-forwarding enabled (aka *p2p*) servers by setting it to `on`. It defaults to `off`.
+- `PORT_FORWARD_ONLY`: Filter only port-forwarding enabled (aka *p2p*) servers by setting it to `true`. It defaults to `false`.
 - `OPENVPN_ENDPOINT_PORT`: Custom OpenVPN server endpoint port to use
   - For TCP: `443`, `5995` or `8443`
   - For UDP: `80`, `443`, `1194`, `4569`, `5060`
